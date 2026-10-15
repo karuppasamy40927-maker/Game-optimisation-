@@ -1,0 +1,32 @@
+{
+  "entities": {
+    "users": {
+      "fields": {
+        "email": { "type": "string" },
+        "displayName": { "type": "string" },
+        "lastActive": { "type": "timestamp" }
+      }
+    },
+    "users/{userId}/profiles": {
+      "fields": {
+        "gameName": { "type": "string" },
+        "targetFps": { "type": "number" },
+        "resolutionScale": { "type": "number" },
+        "powerProfile": { "type": "string" },
+        "dnsOptimizer": { "type": "boolean" },
+        "touchPollingRateHz": { "type": "number" },
+        "updatedAt": { "type": "timestamp" }
+      }
+    },
+    "users/{userId}/games": {
+      "fields": {
+        "packageName": { "type": "string" },
+        "appName": { "type": "string" },
+        "launchCount": { "type": "number" },
+        "lastLaunched": { "type": "timestamp" },
+        "customFpsTarget": { "type": "number" },
+        "customPowerProfile": { "type": "string" }
+      }
+    }
+  }
+}
