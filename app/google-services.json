@@ -1,0 +1,34 @@
+{
+  "project_info": {
+    "project_number": "346610684684",
+    "project_id": "game-booster-applet",
+    "storage_bucket": "game-booster-applet.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:346610684684:android:d41d8cd98f00b204e98009",
+        "android_client_info": {
+          "package_name": "com.aistudio.gamebooster.kxmpzq"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "346610684684-hc1kg9skc9pe0iq3ga1phg7opkg180bq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDummyKeyForFirebaseInitializationOnly01"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
